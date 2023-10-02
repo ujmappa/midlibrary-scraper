@@ -1,0 +1,100 @@
+{
+    "Architects": {
+        "url": "https://midlibrary.io/categories/architects",
+        "category": "architecture",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s architecture",
+        "target": "artists.json"
+    },
+    "Designers": {
+        "url": "https://midlibrary.io/categories/designers",
+        "category": "design",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s design",
+        "target": "artists.json"
+    },
+    "Fashion Designers": {
+        "url": "https://midlibrary.io/categories/fashion-designers",
+        "category": "fashion",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s fashion design",
+        "target": "artists.json"
+    },
+    "Filmmakers": {
+        "url": "https://midlibrary.io/categories/filmmakers",
+        "category": "movie",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s movie",
+        "target": "artists.json"
+    },
+    "Illustrators": {
+        "url": "https://midlibrary.io/categories/illustrators",
+        "category": "illustration",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s illustration",
+        "target": "artists.json"
+    },
+    "Painters": {
+        "url": "https://midlibrary.io/categories/painters",
+        "category": "painting",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s painting",
+        "target": "artists.json"
+    },
+    "Photographers": {
+        "url": "https://midlibrary.io/categories/photographers",
+        "category": "photo",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s photo",
+        "target": "artists.json"
+    },
+    "Printmakers": {
+        "url": "https://midlibrary.io/categories/printmakers",
+        "category": "print",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s print",
+        "target": "artists.json"
+    },
+    "Sculptors and Installation Artists": {
+        "url": "https://midlibrary.io/categories/sculpture-installation",
+        "category": "installation",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s installation",
+        "target": "artists.json"
+    },
+    "Street Artists": {
+        "url": "https://midlibrary.io/categories/street-artists",
+        "category": "street",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${artist}'s street art",
+        "target": "artists.json"
+    },
+    "Various Artists": {
+        "url": "https://midlibrary.io/categories/various-artists",
+        "category": "various",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "in style of ${artist}",
+        "target": "artists.json"
+    },
+    "Genres": {
+        "url": "https://midlibrary.io/categories/genres-art-movements",
+        "category": "general",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "${genre}",
+        "target": "genres.json"
+    },
+    "Techniques": {
+        "url": "https://midlibrary.io/categories/techniques",
+        "category": "general",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "in style of ${technique}",
+        "target": "techniques.json"
+    },
+    "Titles": {
+        "url": "https://midlibrary.io/categories/titles",
+        "category": "general",
+        "scraper": "sources/scrapers/midlibrary",
+        "prompt": "\"${title}\"",
+        "target": "titles.json"
+    }
+}
